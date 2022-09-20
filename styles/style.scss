@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,700&display=swap');
+
+body{
+    background: #eee;
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar */
+.topnav {
+    overflow: hidden;
+  
+    height: 100px;
+    width: 101%;
+  
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+   
+    color: white;
+    font-size: 30px
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+  .sub-container-left{
+   position: absolute;
+   top: 50%;
+   left: 30%;
+   width: 400px;
+   height: 300px;
+  }  
+.container{
+    min-height: 100%;
+    min-width: 100%;
+}
+  .sub-container-left h1{
+    color : #fff;
+    font-size: 50px;
+  }
+  .sub-container-left h2{
+    color: red;
+    font-size: 40px;
+  }
+  .sub-container-left p{
+    color: gray;
+    font-size: 20px;
+  }
+.sub-container-right{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+}
+#section1{
+    color: white;
+    position: absolute;
+    top: 200%;
+    width: 100%;
+    background-color: skyblue;
+    justify-content: center;
+    text-align: center;
+}
+#section2{
+ 
+    color: white;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 10px;
+    height: 50%;
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    display: flex;
+}
+#section2 h1{
+    position: absolute;
+    top: 5%;
+}
+#section2 .box{
+  margin: auto;
+}
+.box{
+   /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 200px;
+    height: 100px;
+    padding: auto;
+    justify-content: space-between;
+}
+.box h1{
+    font-size: 30px;
+}
+#section3{
+    background-color: maroon;
+    position: absolute;
+    top: 270%;
+    left: 1%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#section3 h1{
+color:black;
+text-align: center;
+}
+
+
+.project  ul li a{
+    list-style: none;
+  
+  color: white;
+} 
+.circle{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+}
+.circle .percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.circle .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.circle .percent svg circle{
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 10;
+    stroke: #000;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    stroke-linecap: round;
+}
+.circle .percent svg circle:nth-child(1)
+{
+    stroke-dashoffset: 0;
+    stroke: #f3f3f3;
+}
+.circle .percent svg circle:nth-child(2)
+{
+    stroke-dashoffset: calc(440 - (440 * 87) / 100);
+    stroke: #03a9f4;
+}
+
+.circle .percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+}
+.circle .percent .number h2{
+    font-size: 48px;
+}
+.circle .percent .number h2 span{
+    font-size: 24px;
+}
+.circle .text{
+    padding: 10px 0 0;
+    color: #999;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+.skills{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.a-1{
+    width: 40px;
+    height: 50px;
+    background-color:white;
+    position: fixed;
+    z-index: 10;
+    top: 70%;
+    left: 90%;
+    border: 5px solid black;
+    border-radius: 90px;
+    font-size: 30px;
+    padding-left: 12px;
+}
+.a-1:hover{
+background-color: black;
+color: white;
+}
+
+.contact{
+    width: 100%;
+    background-color: yellow;
+    position: absolute;
+    top: 380%;
+    text-align: center;
+    color: black;
+}
+.container2 ul li{
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 20px;
+    list-style: none;
+    font-size: 30px;
+    color: black;
+}
+
+
+
+
+
+
+

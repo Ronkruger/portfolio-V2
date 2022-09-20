@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+<script src="https://kit.fontawesome.com/dbfc83ae00.js" crossorigin="anonymous"></script>
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,700&display=swap");
+    body{
+        background: #eee;
+        font-family: "Poppins", sans-serif;
+        animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+    @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+ 
+    .topnav {
+      overflow: hidden;
+  height: 100px;
+  width: 100%;
+  padding-top:20px;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: black;
+  font-size: 30px;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.box {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 1600px;
+  margin: auto;
+  padding-top: 70px;
+  height: 700px;
+  justify-content: space-between;
+  position: relative;
+  display: grid;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.box > .reg
+{
+    position: absolute;
+    top: 10px;
+}
+.box .reg2
+{
+    position: absolute;
+    left: 30%;
+}
+.box .reg3
+{
+    position: absolute;
+    left: 60%;
+}
+.box > a{
+    color: black;
+    text-decoration: none;
+}
+
+.zoom {
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: transform .2s; /* Animation */
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+</style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="/html/welcome.html" id="home" class="active">Ron</a>
+        
+        <div class="topnav-right">
+            <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#projects">Personal projects</a>
+          <a href="#contact">Contact</a>
+          <a href="/html/profile.html">Profile</a>
+        </div>
+        </div>
+        <h1>My Porjects</h1>   
+            <div class="box">
+                <a href="/html/projects/registration.html" class="reg">
+                    <h4>Registration and login form with validation</h4>
+                
+                <img  class="zoom" src="/res/project/registration.png" width="700" height="700" alt="">
+                    </a>
+                    <br>
+         
+            <a href="/html/projects/landing-page/landing_page.html" class="reg2">
+                <h4>Landing pages</h4>
+            
+            <img  class="zoom" src="/res/project/landing.png" width="700" height="700" alt="">
+                </a>
+                <a href="/html/projects/landing-page/landing_page.html" class="reg3">
+                    <h4>My first personal project</h4>
+                
+                <img  class="zoom" src="/res/project/landing.png" width="700" height="700" alt="">
+                    </a>
+            </div>
+            
+            
+    <script>
+        window.scrollTo({ top: 900, behavior: 'smooth' })
+    </script>
+        
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Profile page | Portfolio</title>
+    <style>
+        body{
+    background: #eee;
+    font-family: 'Poppins', sans-serif;
+}
+        /* navbar */
+.topnav {
+    overflow: hidden;
+    height: 50px;
+    width: 101%;
+    background: rgba(255, 255, 255, 0.2);
+    color: #171717;
+    position: fixed;    
+    top: 0;
+    padding-top: 40px;
+    z-index: 9999; 
+    padding-bottom: 50px;
+    padding-top: -10px;
+ }
+  .topnav a h1{
+    color: #171717;
+    font-size: 40px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #eee;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: white;
+  }
+  
+  .topnav a.active {
+   
+    color: black;
+    font-size: 30px
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+  .circle{
+    width: 200px;
+    height: 200px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 8px solid rgba(255, 255, 255, 0.3);
+    margin: auto;
+    padding-left: 30px;
+    padding-top: 20px;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    border-radius: 50%;
+    z-index: 999;
+  }
+  .circle img{
+
+    filter: blur(1spx);
+  }
+  .cover{
+    width: 1020px;
+    height: 465px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 8px solid rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 20%;
+    left: 25%;
+  }
+  .profile{
+    background: white;
+    width: 390px;
+    height: 85px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    padding-bottom: 20px;
+    top: 80%;
+    left: 45%;
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 8px solid rgba(255, 255, 255, 0.3);
+
+}
+.content{
+position: absolute;
+top: 100%;
+left: 33%;
+width: 700px;
+height: 600px;
+background: rgba(255, 255, 255, 0.2);
+    color: black;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 8px solid rgba(255, 255, 255, 0.3);
+    justify-content: space-between;
+
+}
+.content ul li{
+    list-style: none;
+    font-size: 25px;
+}
+legend{
+    font-size: 30px;
+}
+.content .info li{
+position: relative;
+    transform: translate(30%, -900%);
+    font-size: 15px;
+    margin-top: 10px;
+}
+      </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="welcome.html" class="active"><h1>Ron</h1></a>
+     
+      </div>
+      <div class="cover">
+            <img src="/res/images/cover.png" width="1000" height="450" alt="" />
+      </div>
+      <div class="circle">
+        <img src="/res/images/pic.png" width="160" height="160" alt="profile" />
+      </div>
+      <div class="profile">
+        <h1>Romano Lantano<br>
+            (Ron)
+        </h1>
+      </div>
+      <br>
+      <div class="content">
+        <legend>Personal Information:</legend>
+            <ul>
+                <li>Full name:</li>
+                <li>Age:</li>
+                <li>Birth date:</li>
+                <li>Gender:</li>
+                <li>Country:</li>
+            </ul>
+       
+            <ul class="info">
+                <li>Romano lantano</li>
+                <li>20</li>
+                <li>Male</li>
+                <li>10/02/01</li>
+                <li>Philippines</li>
+            </ul>
+            <legend>Experience:</legend>
+                <li>8 months of experience in HTML, CSS,JAVASCRIPT and JQUERY (FRONT-END)</li>
+                <li>4 months of experience in PHP(BACK-END)</li>
+      </div>
+</body>
+</html>

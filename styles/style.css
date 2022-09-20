@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,700&display=swap");
+body {
+  background: #171717;
+  font-family: "Poppins", sans-serif;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+/* navbar */
+.topnav {
+  overflow: hidden;
+  height: 100px;
+  width: 100%;
+
+}
+#menu
+{
+    display: block;
+    color: green;
+}
+#menu:hover{
+  cursor: pointer;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius: 5px;
+}
+
+.topnav a.active {
+  color: white;
+  font-size: 30px;
+}
+
+#topnav-right {
+  float: right;
+  
+}
+
+.sub-container-left {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  width: 400px;
+  height: 300px;
+}
+
+.container {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.sub-container-left h1 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.sub-container-left h2 {
+  color: red;
+  font-size: 40px;
+}
+
+.sub-container-left p {
+  color: gray;
+  font-size: 20px;
+}
+
+.sub-container-right {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+}
+
+
+.a-1 {
+  width: 40px;
+  height: 50px;
+  background-color: white;
+  position: fixed;
+  z-index: 10;
+  top: 70%;
+  left: 90%;
+  border: 5px solid black;
+  border-radius: 90px;
+  font-size: 30px;
+  padding-left: 12px;
+}
+
+.a-1:hover {
+  background-color: black;
+  color: white;
+}
+
+.contact {
+  width: 100%;
+  background-color: yellow;
+  position: absolute;
+  top: 480%;
+  text-align: center;
+  color: black;
+}
+
+.container2 ul li {
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 20px;
+  list-style: none;
+  font-size: 30px;
+  color: black;
+}
+.btn-cv
+{
+  width: 250px;
+  height: 50px;
+  background: red;
+  border-radius: 5px;
+  color: white;
+  font-size: 22px;
+  padding: 10px auto;
+}
+.btn-cv:hover
+{
+  background: white;
+  color: black;
+}
+.box {
+  width: 40%;
+  height: 200px;
+  background: orange;
+  border-radius: 2px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.a {
+  margin: 120vh auto 0 auto;
+}
+
+.b {
+  margin: 40vh auto 0 auto;
+}
+
+@media screen and (max-width: 800px)
+{
+  body
+  {
+    background-color: black;
+  }
+    .box
+    {
+        width: 40%;
+  height: 300px;
+  background: orange;
+  border-radius: 2px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+    }
+    .sub-container-left {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  width: 300px;
+  height: 300px;
+}
+#menu
+{
+  
+   
+    color: white;
+}
+.topnav {
+    overflow: hidden;
+  height: 100px;
+  width: 100%;
+  padding-top:20px;
+
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  height: 100%;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 10px;
+  justify-content: center;
+
+}
+#topnav-right {
+  float: right;
+  display: none;
+  color: white;
+  width: 500px;
+  height: 100%;
+  background-color: yellow;
+
+}
+
+.sub-container-left {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  width: 400px;
+  height: 300px;
+}
+.sub-container-right {
+  position: absolute;
+  top: 38%;
+  left: 55%;
+}
+}
+/*# sourceMappingURL=style.css.map */
